@@ -5,9 +5,8 @@
     Sorting Algorithms
     <br>
 </h1><p align="center">
-    <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/nico-castell/Sorting-Algorithms?color=yellow&label=Lines%20of%20code">
-    <img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/nico-castell/Sorting-Algorithms/latest?color=yellow&label=Commits%20since%20last%20release">
-    <img alt="GitHub" src="https://img.shields.io/github/license/nico-castell/Sorting-Algorithms?color=yellow&label=License">
+    <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/nico-castell/Sorting-Algorithms?color=yellow&label=Lines%20of%20code&style=flat-square">
+    <img alt="GitHub" src="https://img.shields.io/github/license/nico-castell/Sorting-Algorithms?color=yellow&label=License&style=flat-square">
 </p>
 
 This repository shows examples of some **Sorting Algorithms** I've written from what I learn on the internet.
