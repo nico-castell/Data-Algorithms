@@ -4,10 +4,9 @@
 
 void Swap(double &a, double &b)
 {
-    if (a == b) return; // Don't swap if they're the same (it's a waste).
-    a = a + b;
-    b = a - b;
-    a = a - b;
+    double temp = a;
+    a = b;
+    b = temp;
 }
 
 // Selection sort algorithm: O(n^2)
@@ -37,7 +36,8 @@ int main()
             if (Input[IndexOfSmallest] > Input[j])
                 IndexOfSmallest = j;
 
-        Swap(Input[i], Input[IndexOfSmallest]);
+        if (i != IndexOfSmallest) // Don't swap if they're the same (it's a waste).
+            Swap(Input[i], Input[IndexOfSmallest]);
     }
 
     // Print everything to the console
