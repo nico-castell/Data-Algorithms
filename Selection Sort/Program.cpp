@@ -2,9 +2,10 @@
 #include <sstream>
 #include <vector>
 
-void Swap(double &a, double &b)
+template <typename T>
+void Swap(T &a, T &b)
 {
-    double temp = a;
+    T temp = a;
     a = b;
     b = temp;
 }
