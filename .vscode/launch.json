@@ -8,7 +8,7 @@
             "name": "G++ - Debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/Sortme",
+            "program": "${workspaceFolder}/Sortme",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "G++ build active file",
+            "preLaunchTask": "G++ - Build active file",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]

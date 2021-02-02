@@ -11,13 +11,13 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "Build active file",
+            "label": "G++ - Build active file",
             "linux": { "command": "/usr/bin/g++" },
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/Sortme"
+                "${workspaceFolder}/Sortme"
             ],
             "options": {
                 "cwd": "${workspaceFolder}",
