@@ -4,6 +4,9 @@
         "usernamehw.errorlens",
         "ms-vscode.cpptools",
         "austin.code-gnu-global",
-        "visualstudioexptteam.vscodeintellicode"
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "visualstudioexptteam.vscodeintellicode",
     ]
 }
