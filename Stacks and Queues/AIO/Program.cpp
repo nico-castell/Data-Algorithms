@@ -18,18 +18,18 @@ int main()
     for (int i = start_tests; i < end_tests; i += between_tests)
         my_queue.enqueue(i);
     for (int i = 0; i < pop_tests; i++)
-        std::cout << my_queue.dequeue() << "\n";
+        std::cout << "\e[31m" << my_queue.dequeue() << "\e[00m\n";
     for (int i = 0; i < peek_tests; i++)
-        std::cout << my_queue.peek() << "\n";
+        std::cout << "\e[36m" << my_queue.peek() << "\e[00m\n";
 
     // Testing Stack
     std::cout << "\n\e[42;30;01mTesting Stack:\e[00m\n";
     for (int i = start_tests; i < end_tests; i += between_tests)
         my_stack.push(i);
     for (int i = 0; i < pop_tests; i++)
-        std::cout << my_stack.pop() << "\n";
+        std::cout << "\e[31m" << my_stack.pop() << "\e[00m\n";
     for (int i = 0; i < peek_tests; i++)
-        std::cout << my_stack.peek() << "\n";
+        std::cout << "\e[36m" << my_stack.peek() << "\e[00m\n";
 
     return 0;
 }
