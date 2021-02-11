@@ -1,6 +1,6 @@
 #include "LinkedList.hpp"
 
-Node::Node(const int &data)
+Node::Node(const int& data)
 {
     this->data = data;
 }
@@ -26,8 +26,8 @@ void LinkedList::add(const int& index, Node node)
 
 void LinkedList::del(const int& index)
 {
-    Node prev = get(index -1);
-    Node after = get(index +1);
+    Node prev = get(index - 1);
+    Node after = get(index + 1);
     prev.next = &after;
     // get(index -1).next = &(get(index +1));
 }

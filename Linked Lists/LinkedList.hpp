@@ -3,13 +3,13 @@
 struct Node
 {
     int data;
-    Node *next;
-    Node(const int &data);
+    Node* next;
+    Node(const int& data);
 };
 
 class LinkedList
 {
-    Node *start;
+    Node* start;
     LinkedList(Node start);
     Node get(const int& index);
     void add(const int& index, Node node);

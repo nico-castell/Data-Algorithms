@@ -3,7 +3,7 @@
 #include <vector>
 
 template <typename T>
-void Swap(T &a, T &b)
+void Swap(T& a, T& b)
 {
     T temp = a;
     a = b;

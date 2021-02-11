@@ -1,5 +1,5 @@
-#include "cStack.cpp"
 #include "cQueue.cpp"
+#include "cStack.cpp"
 #include <iostream>
 
 int main()

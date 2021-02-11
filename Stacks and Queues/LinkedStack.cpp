@@ -23,6 +23,7 @@ private:
         };
         Node* start;
         Node* end;
+
     public:
         void _push(F data)
         {

@@ -8,7 +8,7 @@ private:
     std::vector<ItemType> data;
 
 public:
-    void enqueue(const ItemType &data)
+    void enqueue(const ItemType& data)
     {
         this->data.push_back(data);
     }

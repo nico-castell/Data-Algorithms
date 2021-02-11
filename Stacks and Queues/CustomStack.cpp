@@ -8,7 +8,7 @@ private:
     std::vector<ItemType> data;
 
 public:
-    void push(const ItemType &data)
+    void push(const ItemType& data)
     {
         this->data.push_back(data);
     }
